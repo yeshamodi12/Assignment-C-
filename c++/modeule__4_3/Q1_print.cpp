@@ -6,7 +6,7 @@ int main()
     string name, add;
     int age, DOB;
     cout << "hallo world\n";
-    cout << " c++\n";
+    cout << " I am learnin c++\n";
 
     cout << "enter your name : ";
     getline(cin, name);
@@ -20,9 +20,9 @@ int main()
     cin >> DOB;
 
     // cin >> add;
-    cout << "name is-> " << name << endl
-         << "age is-> " << age << endl
-         << "DOB is-> " << DOB << endl
+    cout << "name is-> " << name 
+         << "age is-> " << age 
+         << "DOB is-> " << DOB  
          << "add is-> " << add;
     // cout << add;
     return 0;
